@@ -12,6 +12,8 @@ module.exports = {
     extend:{
     colors:{
       'custom-green':'#37c898',
+      'custom-orange':'#fe9958',
+      'custom-teal':'#5ec0cf'
     },
     fontFamily: {
       'cormorant': ['Cormorant Garamond', 'serif'],
