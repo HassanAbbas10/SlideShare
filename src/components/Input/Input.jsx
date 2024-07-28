@@ -17,15 +17,18 @@ const Input = () => {
           </p>
           <input
             placeholder="https://www.slideshare.net/yamikaze/motivation-10"
-            className="w-full sm:w-[20rem] lg:w-[30rem] border-custom-green border rounded h-10 placeholder:pl-4 outline-none focus:outline-custom-teal"
+            className="w-full sm:w-[20rem] lg:w-[30rem] border-custom-green border rounded h-10 placeholder:pl-4 outline-none focus:outline-custom-teal pl-5"
           />
-          <button className="text-lg sm:text-xl md:text-2xl font-extrabold tracking-tight border bg-custom-green font-quicksand w-full sm:w-1/2 lg:w-[30rem] mt-10 rounded-lg border-custom-green h-12 text-center hover:bg-custom-teal duration-300 hover:border-custom-orange">
+          <button className="text-lg sm:text-xl md:text-2xl font-extrabold tracking-tight border bg-custom-green font-quicksand w-full sm:w-1/2 lg:w-[30rem] mt-10 rounded-lg border-custom-green h-12 text-center hover:bg-custom-teal hover:border-custom-green
+          duration-700
+          
+          ">
             Download
           </button>
         </div>
       </section>
       <div className="flex flex-col items-center justify-center">
-        <h2 className="py-10 text-2xl sm:text-3xl text-start text-slate-200">
+        <h2 className="my-10 hover:shadow-xl hover:shadow-custom-teal duration-1000 cursor:pointer text-2xl sm:text-3xl text-start text-slate-200 border-b border-b-custom-teal">
           Easy way to download slides from Slideshare
         </h2>
         <p className="flex justify-center items-center max-w-[940px] text-white text-sm sm:text-base md:text-lg">

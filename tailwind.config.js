@@ -10,6 +10,8 @@ module.exports = {
   prefix: "",
   theme: {
     extend:{
+      
+  
     colors:{
       'custom-green':'#37c898',
       'custom-orange':'#fe9958',
